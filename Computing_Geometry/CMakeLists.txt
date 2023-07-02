@@ -5,7 +5,9 @@ cmake_minimum_required (VERSION 3.8)
 
 project ("Computing_Geometry")
 
-include_directories(Base)
+include_directories(Core/Base)
+include_directories(Core/Primitive)
+include_directories(Core)
 
 # 将源代码添加到此项目的可执行文件。
 add_executable (Computing_Geometry "Computing_Geometry.cpp" "Computing_Geometry.h")

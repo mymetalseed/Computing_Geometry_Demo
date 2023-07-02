@@ -17,7 +17,7 @@
 
 
 
-- 几何基础类(`Vector√`/Point/Line)
+- 几何基础类(`Vector√`/`Point√`/Line)
 - 几何基础检测(射线检测/各种相交)
 - 耳裁剪(Ear Clipping)拓扑算法
 - DCEL(双向边链表)

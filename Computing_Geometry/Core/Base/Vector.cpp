@@ -1,16 +1,4 @@
-#include "../Vector.h"
-
-//template<typename coordinate_type, size_t dimensions>
-//float jmk::dotProduct(Vector<coordinate_type, dimensions>& v1, Vector<coordinate_type, dimensions>& v2)
-//{
-//	if (v1.coords.size() != v2.coords.size())
-//		return FLT_MIN;
-//
-//	float product = 0;
-//	for (int i = 0; i < v1.coords.size(); i++)
-//		product = product + v1[i] * v2[i];
-//	return product;
-//}
+#include "Vector.h"
 
 jmk::Vector3f jmk::crossProduct3d(Vector3f a, Vector3f b)
 {
@@ -22,7 +10,7 @@ jmk::Vector3f jmk::crossProduct3d(Vector3f a, Vector3f b)
 	return Vector3f(x_, y_, z_);
 }
 
-float jmk::corssProduct2d(Vector2f a, Vector2f b)
+float jmk::crossProduct2d(Vector2f a, Vector2f b)
 {
 	return 0.0f;
 }

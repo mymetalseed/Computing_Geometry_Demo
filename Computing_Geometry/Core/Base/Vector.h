@@ -4,7 +4,7 @@
 
 // TODO : Vector should move to ../Core
 
-#include "../Base/Core.h"
+#include "Core.h"
 
 namespace jmk {
 
@@ -224,7 +224,7 @@ namespace jmk {
 
 	Vector3f crossProduct3d(Vector3f a, Vector3f b);
 
-	float corssProduct2d(Vector2f a, Vector2f b);
+	float crossProduct2d(Vector2f a, Vector2f b);
 
 	Vector2f prependicluar(Vector2f&);
 
