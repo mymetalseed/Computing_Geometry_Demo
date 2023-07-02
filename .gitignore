@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+Computing_Geometry/.vs/
+Computing_Geometry/out/
