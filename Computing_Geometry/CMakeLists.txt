@@ -13,5 +13,6 @@ include_directories(Core)
 add_executable (Computing_Geometry "Computing_Geometry.cpp" "Computing_Geometry.h")
 add_executable (Demo "Sample/Demo.cpp")
 add_executable (Thread_1 "Thread/Thread_1.cpp" "Thread/ThreadDemo/2_launch_a_thread.h")
+add_executable (Thread_2 "Thread/Thread_2_joinable.cpp")
 
 # TODO: 如有需要，请添加测试并安装目标。
