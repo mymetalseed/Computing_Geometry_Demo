@@ -16,5 +16,6 @@ add_executable (Thread_1 "Thread/Thread_1.cpp" "Thread/ThreadDemo/2_launch_a_thr
 add_executable (Thread_2 "Thread/Thread_2_joinable.cpp")
 add_executable (Thread_Demo "Thread/Thread_Demo.cpp")
 add_executable (Thread_SubThread "Thread/Thread_SubThread.cpp")
+add_executable (CG_EarClipping "Core/ComputeGeometryDemo/EarClipping.cpp")
 
 # TODO: 如有需要，请添加测试并安装目标。
