@@ -12,3 +12,7 @@ enum RELATIVE_POSITION {
 static bool isEqualD(double x, double y) {
 	return fabs(x - y) < TOLERENCE;
 }
+
+static bool _xor(bool x, bool y) {
+	return x ^ y;
+}
