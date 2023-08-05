@@ -10,6 +10,8 @@ struct Vertex {
 	jmk::Vector<T, dim> point;
 	Vertex* next;
 	Vertex* prev;
+	bool is_ear = false;
+	bool is_processed = false;
 
 	Vertex(jmk::Vector<T, dim>& _point, Vertex<T, dim>* _next, Vertex<T, dim>* _prev)
 	:point(_point), next(_next), prev(_prev),
@@ -58,3 +60,13 @@ public:
 
 typedef Polygon<float, DIM3> PolygonS3d;
 typedef Polygon<float, DIM2> PolygonS2d;
+
+template<class T,size_t dim>
+struct Edge {
+	Vertex<T, dim> v1;
+	Vertex<T, dim> v2;
+
+	Edge(Vertex<T,dim> _v1,Vertex<T,_dim> _v2) : v1(_v1),v2(_v2){
+	}
+};
+typedef Edge<float, DIM2> Edge2d;
