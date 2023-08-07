@@ -1,4 +1,5 @@
 #include "Triangulation.h"
+#include "../Core/GeoUtils.cpp"
 using namespace jmk;
 
 static void initialize_ear_status(PolygonS2d* polygon) {

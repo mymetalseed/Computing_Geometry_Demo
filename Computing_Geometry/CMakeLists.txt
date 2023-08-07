@@ -11,11 +11,11 @@ include_directories(Core)
 
 # 将源代码添加到此项目的可执行文件。
 add_executable (Computing_Geometry "Computing_Geometry.cpp" "Computing_Geometry.h")
-add_executable (Demo "Sample/Demo.cpp" "ComputeGeometryDemo/Trangulation.cpp")
-add_executable (Thread_1 "Thread/Thread_1.cpp" "Thread/ThreadDemo/2_launch_a_thread.h" "ComputeGeometryDemo/Trangulation.cpp")
-add_executable (Thread_2 "Thread/Thread_2_joinable.cpp" "ComputeGeometryDemo/Trangulation.cpp")
-add_executable (Thread_Demo "Thread/Thread_Demo.cpp" "ComputeGeometryDemo/Trangulation.cpp")
-add_executable (Thread_SubThread "Thread/Thread_SubThread.cpp" "ComputeGeometryDemo/Trangulation.cpp")
-add_executable (CG_EarClipping "ComputeGeometryDemo/EarClipping.cpp" "ComputeGeometryDemo/Trangulation.cpp")
+add_executable (Demo "Sample/Demo.cpp" )
+add_executable (Thread_1 "Thread/Thread_1.cpp" "Thread/ThreadDemo/2_launch_a_thread.h")
+add_executable (Thread_2 "Thread/Thread_2_joinable.cpp" )
+add_executable (Thread_Demo "Thread/Thread_Demo.cpp" )
+add_executable (Thread_SubThread "Thread/Thread_SubThread.cpp" )
+add_executable (CG_EarClipping "ComputeGeometryDemo/EarClipping.cpp" "ComputeGeometryDemo/Trangulation.cpp" "ComputeGeometryDemo/Triangulation.h")
 
 # TODO: 如有需要，请添加测试并安装目标。

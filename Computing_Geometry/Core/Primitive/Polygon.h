@@ -66,7 +66,7 @@ struct Edge {
 	Vertex<T, dim> v1;
 	Vertex<T, dim> v2;
 
-	Edge(Vertex<T,dim> _v1,Vertex<T,_dim> _v2) : v1(_v1),v2(_v2){
+	Edge(Vertex<T,dim> _v1,Vertex<T, dim> _v2) : v1(_v1),v2(_v2){
 	}
 };
 typedef Edge<float, DIM2> Edge2d;
