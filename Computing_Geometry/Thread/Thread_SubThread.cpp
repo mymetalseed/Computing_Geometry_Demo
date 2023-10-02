@@ -1,5 +1,6 @@
 #include<iostream>
 #include<thread>
+#include<queue>
 using namespace std;
 
 void func_2(int& x) {
@@ -13,6 +14,7 @@ void func_2(int& x) {
 			throw std::runtime_error("this is a runtime error");
 		}
 	}
+	std::queue<int> que;
 }
 
 void func_1() {

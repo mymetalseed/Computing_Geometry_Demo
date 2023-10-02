@@ -18,4 +18,8 @@ add_executable (Thread_Demo "Thread/Thread_Demo.cpp" )
 add_executable (Thread_SubThread "Thread/Thread_SubThread.cpp" )
 add_executable (CG_EarClipping "ComputeGeometryDemo/EarClipping.cpp" "ComputeGeometryDemo/Trangulation.cpp" "ComputeGeometryDemo/Triangulation.h")
 
+#CPP STL学习笔记
+add_executable(FunctionFaker "CppDemo/FunctionFaker.cpp")
+add_executable(JJAlocator "CppDemo/Allocator/JJallocator.cpp" "CppDemo/Allocator/jjaloc.h")
+add_executable(Iterator "CppDemo/Iterator/itera.cpp")
 # TODO: 如有需要，请添加测试并安装目标。
